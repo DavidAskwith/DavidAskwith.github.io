@@ -8,15 +8,15 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #40C4FF;
 }
 
 a:hover {
-  color: #fec503;
+  color: #0db4ff;
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #40C4FF !important;
 }
 
 h1,
@@ -65,13 +65,13 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #40C4FF;
+  border-color: #40C4FF;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #1ab8ff !important;
+  border-color: #1ab8ff !important;
   color: white;
 }
 
@@ -80,12 +80,12 @@ section h3.section-subheading {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #40C4FF;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #40C4FF;
   text-shadow: none;
 }
 
@@ -108,17 +108,17 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
+  background-color: #40C4FF;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: #40C4FF;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #0db4ff;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -131,10 +131,10 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #40C4FF;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -178,20 +178,12 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-  padding-top: 150px;
+  padding-top: 90px;
   padding-bottom: 100px;
 }
 
-header.masthead .intro-text .intro-lead-in {
-  font-size: 22px;
-  font-style: italic;
-  line-height: 22px;
-  margin-bottom: 25px;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
 header.masthead .intro-text .intro-heading {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
@@ -218,12 +210,12 @@ header.masthead ul.social-buttons li a {
 }
 
 header.masthead ul.social-buttons li a:active, header.masthead ul.social-buttons li a:focus, header.masthead ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #40C4FF;
 }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
+    padding-top: 200px;
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
@@ -268,7 +260,7 @@ header.masthead ul.social-buttons li a:active, header.masthead ul.social-buttons
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(64, 196, 255, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -361,7 +353,8 @@ header.masthead ul.social-buttons li a:active, header.masthead ul.social-buttons
 }
 
 .portfolio-modal .modal-content img {
-  margin-bottom: 30px;
+  margin: 0 auto 30px auto;
+  max-height: 354px;
 }
 
 .portfolio-modal .modal-content button {
@@ -472,7 +465,7 @@ header.masthead ul.social-buttons li a:active, header.masthead ul.social-buttons
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #40C4FF;
 }
 
 .timeline > li .timeline-image h4 {
@@ -643,7 +636,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: #40C4FF;
   box-shadow: none;
 }
 
@@ -713,7 +706,7 @@ footer ul.social-buttons li a {
 }
 
 footer ul.social-buttons li a:active, footer ul.social-buttons li a:focus, footer ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #40C4FF;
 }
 
 section#skills .progress {
@@ -723,7 +716,7 @@ section#skills .progress {
 
 section#skills .progress-bar {
   background-color: #868e96;
-  color: #fed136;
+  color: #40C4FF;
 }
 
 section#skills img {
