@@ -16,8 +16,14 @@ section#skills {
 
   .bio {
     margin-top: 50px;
-    padding: 0px 50px;
   }
+
+  @media(min-width: 992px) {
+    .bio {
+      padding: 0px 50px;
+    }
+  }
+    
 
   @media(min-width: 992px) {
     .progress-bars {

@@ -732,7 +732,12 @@ section#skills img {
 
 section#skills .bio {
   margin-top: 50px;
-  padding: 0px 50px;
+}
+
+@media (min-width: 992px) {
+  section#skills .bio {
+    padding: 0px 50px;
+  }
 }
 
 @media (min-width: 992px) {
